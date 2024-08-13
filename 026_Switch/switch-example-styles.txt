@@ -1,0 +1,5 @@
+<resources>
+    <style name="CustomSwitchStyle">
+        <item name="colorControlActivated">@color/custom_switch_color</item>
+    </style>
+</resources>

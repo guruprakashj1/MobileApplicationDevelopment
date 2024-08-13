@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/basicChip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/checkableChip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkable Chip"
+            android:checkable="true"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/customStyledChip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Styled Chip"
+            app:chipBackgroundColor="@color/custom_chip_color"
+            app:chipStrokeColor="@color/custom_chip_stroke"
+            app:chipStrokeWidth="2dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipWithIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip with Icon"
+            app:chipIcon="@android:drawable/ic_dialog_info"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipWithCloseIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip with Close Icon"
+            app:closeIcon="@android:drawable/ic_menu_close_clear_cancel"
+            app:closeIconVisible="true"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/customBackgroundChip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Background"
+            android:background="@drawable/custom_chip_background"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

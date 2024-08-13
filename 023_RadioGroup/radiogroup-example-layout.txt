@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic RadioGroup"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/basicRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 1" />
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 2" />
+
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horizontal RadioGroup"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/horizontalRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/horizontalOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One" />
+
+            <RadioButton
+                android:id="@+id/horizontalOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two" />
+
+            <RadioButton
+                android:id="@+id/horizontalOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Three" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Styled RadioGroup"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/customStyledRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/customOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom 1"
+                android:button="@drawable/custom_radio_button"
+                android:textColor="@color/custom_text_color" />
+
+            <RadioButton
+                android:id="@+id/customOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom 2"
+                android:button="@drawable/custom_radio_button"
+                android:textColor="@color/custom_text_color" />
+
+            <RadioButton
+                android:id="@+id/customOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom 3"
+                android:button="@drawable/custom_radio_button"
+                android:textColor="@color/custom_text_color" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programmatic RadioGroup"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/radioGroupContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image RadioGroup"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/imageRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/imageOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_star"
+                android:contentDescription="Star" />
+
+            <RadioButton
+                android:id="@+id/imageOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_radio"
+                android:contentDescription="Radio" />
+
+            <RadioButton
+                android:id="@+id/imageOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/checkbox_on_background"
+                android:contentDescription="Checkbox" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>

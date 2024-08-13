@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/basicSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Switch" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/customTextSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Text Switch"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/customColorSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Color Switch"
+            android:theme="@style/CustomSwitchStyle"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/disabledSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disabled Switch"
+            android:enabled="false"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/customThumbTrackSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Thumb/Track Switch"
+            android:thumb="@drawable/custom_switch_thumb"
+            app:track="@drawable/custom_switch_track"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/switchContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/controlSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Text Visibility"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/controlledTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This text is controlled by the switch above"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

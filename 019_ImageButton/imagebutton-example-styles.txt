@@ -1,0 +1,7 @@
+<resources>
+    <style name="CustomImageButtonStyle">
+        <item name="android:background">@android:color/holo_blue_light</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/standardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Standard Button"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/outlinedButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outlined Button"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/textButton"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Button"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/iconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Icon Button"
+            app:icon="@android:drawable/ic_dialog_info"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:icon="@android:drawable/ic_lock_idle_lock"
+            android:checkable="true"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/customStyledButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Styled Button"
+            style="@style/CustomButtonStyle"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/disabledButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disabled Button"
+            android:enabled="false"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/longClickButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long Click Button"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@android:drawable/ic_input_add"
+            android:contentDescription="Add" />
+
+    </LinearLayout>
+</ScrollView>

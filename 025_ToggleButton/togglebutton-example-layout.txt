@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ToggleButton
+            android:id="@+id/basicToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ToggleButton
+            android:id="@+id/customTextToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="CUSTOM ON"
+            android:textOff="CUSTOM OFF"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <ToggleButton
+            android:id="@+id/customColorToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_text_color"
+            android:backgroundTint="@color/custom_background_color"
+            android:layout_marginTop="16dp" />
+
+        <ToggleButton
+            android:id="@+id/disabledToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="DISABLED ON"
+            android:textOff="DISABLED OFF"
+            android:enabled="false"
+            android:layout_marginTop="16dp" />
+
+        <ToggleButton
+            android:id="@+id/customBackgroundToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_toggle_background"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/toggleButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp" />
+
+        <ToggleButton
+            android:id="@+id/customOnOffTextToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="FEATURE ENABLED"
+            android:textOff="FEATURE DISABLED"
+            android:layout_marginTop="16dp" />
+
+        <ToggleButton
+            android:id="@+id/controlToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Show Text"
+            android:textOff="Hide Text"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/controlledTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This text is controlled by the toggle button above"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

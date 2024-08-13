@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/standardImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="Standard ImageButton"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/customBackgroundImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:background="@drawable/custom_imagebutton_background"
+        android:contentDescription="Custom Background ImageButton"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/selectorImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_share"
+        android:background="@drawable/custom_imagebutton_selector"
+        android:contentDescription="Selector ImageButton"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/paddingImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_search"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Padding ImageButton"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/longClickImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        android:contentDescription="Long Click ImageButton"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/styledImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        style="@style/CustomImageButtonStyle"
+        android:contentDescription="Styled ImageButton"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

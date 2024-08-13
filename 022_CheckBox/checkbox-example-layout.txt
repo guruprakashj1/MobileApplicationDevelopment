@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/basicCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic CheckBox" />
+
+        <CheckBox
+            android:id="@+id/customTextCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Text CheckBox"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/customColorCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Color CheckBox"
+            android:textColor="@color/custom_text_color"
+            android:buttonTint="@color/custom_checkbox_color"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/disabledCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disabled CheckBox"
+            android:enabled="false"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/customDrawableCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Drawable CheckBox"
+            android:button="@drawable/custom_checkbox"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/checkBoxContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your options:"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <CheckBox
+            android:id="@+id/option1CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1" />
+
+        <CheckBox
+            android:id="@+id/option2CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2" />
+
+        <CheckBox
+            android:id="@+id/option3CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3" />
+
+    </LinearLayout>
+</ScrollView>
