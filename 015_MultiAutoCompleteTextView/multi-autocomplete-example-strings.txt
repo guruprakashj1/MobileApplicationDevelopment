@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MultiAutoCompleteExample</string>
+    <string-array name="programming_languages_array">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Ruby</item>
+        <item>PHP</item>
+        <item>Swift</item>
+        <item>Go</item>
+        <item>Rust</item>
+        <item>TypeScript</item>
+        <item>Scala</item>
+        <item>Dart</item>
+        <item>Haskell</item>
+        <item>Lua</item>
+        <item>R</item>
+        <item>MATLAB</item>
+        <item>Perl</item>
+        <item>Groovy</item>
+        <!-- Add more programming languages as needed -->
+    </string-array>
+</resources>

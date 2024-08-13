@@ -1,0 +1,42 @@
+001_TextView 
+002_Plain Text 
+003_Password 
+004_Password (Numeric) 
+005_E-mail 
+006_Phone 
+007_Postal Address 
+008_Multiline Text 
+009_Time 
+010_Date 
+011_Number 
+012_Number (Signed) 
+013_Number (Decimal) 
+014_AutoCompleteTextView 
+015_MultiAutoCompleteTextView 
+016_CheckedTextView 
+017_TextInputLayout 
+018_Button 
+019_ImageButton 
+020_ChipGroup 
+021_Chip 
+022_CheckBox 
+023_RadioGroup 
+024_RadioButton 
+025_ToggleButton 
+026_Switch 
+027_FloatingActionButton 
+028_ImageView 
+029_WebView 
+030_VideoView 
+031_CalendarView 
+032_TextClock 
+033_ProgressBar 
+034_ProgressBar (Horizontal) 
+035_SeekBar 
+036_SeekBar (Discrete) 
+037_RatingBar 
+038_SearchView 
+039_TextureView 
+040_SurfaceView 
+041_Horizontal Divider 
+042_Vertical Divider 

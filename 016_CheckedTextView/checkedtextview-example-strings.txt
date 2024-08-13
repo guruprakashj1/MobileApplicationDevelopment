@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CheckedTextViewExample</string>
+    <string-array name="items_array">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherry</item>
+        <item>Date</item>
+        <item>Elderberry</item>
+        <item>Fig</item>
+        <item>Grape</item>
+        <item>Honeydew</item>
+        <item>Iceplant</item>
+        <item>Jackfruit</item>
+    </string-array>
+</resources>
