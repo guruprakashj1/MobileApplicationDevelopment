@@ -27,7 +27,7 @@ B. Basic structure of an Intent
 2. Use cases: Sharing content, opening a web page, sending an email
 3. Example code snippet:
    ```kotlin
-   val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.example.com"))
+   val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"))
    startActivity(intent)
    ```
 
