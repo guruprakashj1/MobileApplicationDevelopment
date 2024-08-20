@@ -1,4 +1,4 @@
-# Lecture Prompt: Android Intents
+# Android Intents
 
 ## I. Introduction to Intents
 A. Definition of Intents
@@ -27,20 +27,24 @@ B. Basic structure of an Intent
 2. Use cases: Sharing content, opening a web page, sending an email
 3. Example code snippet:
    ```kotlin
-   val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.example.com"))
+   val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"))
    startActivity(intent)
    ```
 
 ## III. Internal Intents
 
-A. Definition: Intents used within the same application
+A. Definition: 
+Intents used within the same application
+
 B. Common uses:
    1. Navigation between activities
    2. Starting services
    3. Sending broadcasts within the app
+
 C. Benefits: 
    - Direct communication
    - Type safety when using explicit intents
+
 D. Example: Passing data between activities
    ```kotlin
    val intent = Intent(this, DetailActivity::class.java)
@@ -51,13 +55,16 @@ D. Example: Passing data between activities
 ## IV. External Intents
 
 A. Definition: Intents that interact with components of other applications
+
 B. Use cases:
    1. Opening a web browser
    2. Sharing content to social media
    3. Picking a contact from the address book
+
 C. Security considerations:
    - Potential for data leakage
    - Importance of careful intent construction
+
 D. Example: Sharing text content
    ```kotlin
    val shareIntent = Intent().apply {
@@ -71,15 +78,19 @@ D. Example: Sharing text content
 ## V. Pending Intents
 
 A. Definition: A wrapper around a regular intent that specifies an action to be performed in the future
+
 B. Key characteristics:
    1. Can be handed to other applications
    2. Allows the other app to perform the specified action as if it were your application
+
 C. Common uses:
    1. Notifications
    2. App widgets
    3. AlarmManager operations
+
 D. Security implications:
    - Granting permissions to other applications
+
 E. Example: Creating a PendingIntent for a notification
    ```kotlin
    val intent = Intent(this, NotificationActivity::class.java)
@@ -89,11 +100,14 @@ E. Example: Creating a PendingIntent for a notification
 ## VI. Intent Filters
 
 A. Definition: Declarations in the app's manifest file that specify the types of intents an activity, service, or broadcast receiver can respond to
+
 B. Purpose: Allow Android components to be reusable and interchangeable
+
 C. Key elements:
-   1. <action>
-   2. <category>
-   3. <data>
+   1. action
+   2. category
+   3. data
+
 D. Example manifest entry:
    ```xml
    <activity android:name=".ShareActivity">
