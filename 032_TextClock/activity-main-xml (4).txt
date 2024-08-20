@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:format12Hour="hh:mm:ss a"
+        android:format24Hour="HH:mm:ss" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:format12Hour="hh:mm:ss a, MMM dd, yyyy"
+        android:format24Hour="HH:mm:ss, MMM dd, yyyy" />
+
+    <TextClock
+        android:id="@+id/newYorkClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:format12Hour="hh:mm:ss a (New York)"
+        android:format24Hour="HH:mm:ss (New York)" />
+
+    <TextClock
+        android:id="@+id/customFormatClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
