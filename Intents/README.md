@@ -1,4 +1,4 @@
-# Lecture Prompt: Android Intents
+# Android Intents
 
 ## I. Introduction to Intents
 A. Definition of Intents
