@@ -104,9 +104,9 @@ A. Definition: Declarations in the app's manifest file that specify the types of
 B. Purpose: Allow Android components to be reusable and interchangeable
 
 C. Key elements:
-   1. '<action>
-   2. '<category>
-   3. '<data>
+   1. ```<action>
+   2. ```<category>
+   3. ```<data>
 
 D. Example manifest entry:
    ```xml
