@@ -6,7 +6,6 @@ Basic concepts on Android
 UI elements 
 
 ## Unit - 2
-Prefernces 
 Storage
 Services 
 
