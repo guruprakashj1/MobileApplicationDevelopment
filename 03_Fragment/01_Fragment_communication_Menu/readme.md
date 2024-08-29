@@ -12,31 +12,6 @@ This Android project demonstrates how to implement fragment communication using 
 - `fragment_second.xml`: Layout for the second fragment.
 - `main_menu.xml`: Menu resource file defining the menu items.
 
-- // Project Structure
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/fragmentcommunication/
-│   │   │   ├── MainActivity.kt
-│   │   │   ├── FirstFragment.kt
-│   │   │   └── SecondFragment.kt
-│   │   ├── res/
-│   │   │   ├── layout/
-│   │   │   │   ├── activity_main.xml
-│   │   │   │   ├── fragment_first.xml
-│   │   │   │   └── fragment_second.xml
-│   │   │   ├── menu/
-│   │   │   │   └── main_menu.xml
-│   │   │   ├── values/
-│   │   │   │   ├── colors.xml
-│   │   │   │   ├── strings.xml
-│   │   │   │   └── themes.xml
-│   │   │   └── drawable/
-│   │   │       └── ic_launcher_background.xml
-│   │   └── AndroidManifest.xml
-│   └── test/ (omitted for brevity)
-└── build.gradle
-
 ## How it works
 
 1. The MainActivity inflates the menu using `onCreateOptionsMenu()`.
