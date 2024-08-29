@@ -1,28 +1,3 @@
-// Project Structure
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/fragmentcommunication/
-│   │   │   ├── MainActivity.kt
-│   │   │   ├── FirstFragment.kt
-│   │   │   └── SecondFragment.kt
-│   │   ├── res/
-│   │   │   ├── layout/
-│   │   │   │   ├── activity_main.xml
-│   │   │   │   ├── fragment_first.xml
-│   │   │   │   └── fragment_second.xml
-│   │   │   ├── menu/
-│   │   │   │   └── main_menu.xml
-│   │   │   ├── values/
-│   │   │   │   ├── colors.xml
-│   │   │   │   ├── strings.xml
-│   │   │   │   └── themes.xml
-│   │   │   └── drawable/
-│   │   │       └── ic_launcher_background.xml
-│   │   └── AndroidManifest.xml
-│   └── test/ (omitted for brevity)
-└── build.gradle
-
 // MainActivity.kt
 package com.example.fragmentcommunication
 
