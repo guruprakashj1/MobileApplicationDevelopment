@@ -1,6 +1,6 @@
 # MobileApplicationDevelopment - Enterprise, Development,  and  Research
 
-Elective course offered for CSE student @ Amrita School of Computing, Coimbatore. 
+Elective course offered @ Amrita School of Computing, Coimbatore. 
 
 Mobile Application Development - Kotlin , Android and ...
 
