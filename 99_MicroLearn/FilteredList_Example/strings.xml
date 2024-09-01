@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Filtered List Example</string>
+    <string name="all">All</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="other">Other</string>
+</resources>

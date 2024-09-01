@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_vector_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_vector_dashboard"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_vector_notifications"
+        android:title="@string/notifications" />
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bottom Nav Example</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="notifications_fragment">Notifications Fragment</string>
+</resources>

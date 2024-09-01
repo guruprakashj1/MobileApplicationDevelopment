@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Student Bio Data</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="major">Major</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="reading">Reading</string>
+    <string name="sports">Sports</string>
+    <string name="music">Music</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="majors_array">
+        <item>Computer Science</item>
+        <item>Engineering</item>
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+    </string-array>
+</resources>
