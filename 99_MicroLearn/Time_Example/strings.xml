@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Time Example</string>
+    <string name="select_time">Select Time</string>
+    <string name="selected_time">Selected Time: %1$s</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Slider Color Example</string>
+    <string name="color_value">Color: %1$s</string>
+</resources>

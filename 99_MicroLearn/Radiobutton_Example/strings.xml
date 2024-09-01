@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Radio Button and Submit</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="submit">Submit</string>
+</resources>

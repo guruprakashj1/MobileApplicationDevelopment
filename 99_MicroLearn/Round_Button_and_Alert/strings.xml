@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Round Button Example</string>
+    <string name="click_me">Click Me!</string>
+    <string name="alert_title">Button Clicked</string>
+    <string name="alert_message">You clicked the round button!</string>
+    <string name="ok">OK</string>
+</resources>
