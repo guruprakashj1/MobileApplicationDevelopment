@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Autocomplete Example</string>
+    <string name="enter_a_fruit">Enter a fruit</string>
+</resources>

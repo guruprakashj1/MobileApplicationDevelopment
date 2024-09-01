@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calendar Example</string>
+    <string name="selected_date">Selected Date: %1$s</string>
+</resources>
