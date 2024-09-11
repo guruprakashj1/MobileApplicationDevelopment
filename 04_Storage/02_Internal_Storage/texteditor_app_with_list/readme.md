@@ -1,19 +1,19 @@
 
 
-Layout (activity_main.xml):
+# Layout (activity_main.xml):
 
 We're using a simple LinearLayout for a straightforward vertical arrangement of views.
 It includes an EditText for content, another for the file name, a save button, and a ListView for displaying saved files.
 
 
-MainActivity.kt:
+# MainActivity.kt:
 
 We're using a standard ArrayAdapter with ListView instead of RecyclerView for simplicity.
 The file operations (save, list, read) are implemented in separate methods for clarity.
 
 
 
-Key Points:
+# Key Points:
 
 Saving Files:
 
