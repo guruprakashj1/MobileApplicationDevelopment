@@ -20,7 +20,7 @@ Mobile Application Development - Kotlin , Android and ...
 1.
 
 # Best(Top 2%) Outstanding Research in the course - AY'24  
-1.Shreyas Visweshwaran - [9e88e1284faec3e614fd8e474c561dc224dd51a7f20344df871771a9dc9b6f9a]
+1.
 
 
 # Best(Top 2%) Outstanding Project in the course - AY'24  
