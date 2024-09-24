@@ -1,4 +1,4 @@
-# Lecture Notes: Internal Storage in Android
+# Internal Storage in Android
 
 ## 1. Introduction to Internal Storage
 
