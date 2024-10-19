@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Position Sensors</string>
+    <string name="accelerometer_placeholder">Accelerometer: X: 0.0, Y: 0.0, Z: 0.0</string>
+    <string name="magnetometer_placeholder">Magnetometer: X: 0.0, Y: 0.0, Z: 0.0</string>
+    <string name="orientation_placeholder">Orientation: Azimuth: 0.0, Pitch: 0.0, Roll: 0.0</string>
+    <string name="accelerometer_data">Accelerometer: X: %.2f, Y: %.2f, Z: %.2f</string>
+    <string name="magnetometer_data">Magnetometer: X: %.2f, Y: %.2f, Z: %.2f</string>
+    <string name="orientation_data">Orientation: Azimuth: %.2f, Pitch: %.2f, Roll: %.2f</string>
+</resources>
