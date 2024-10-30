@@ -23,7 +23,7 @@ Mobile Application Development - Kotlin , Android and ...
 1.
 
 # Best(Top 2%) Outstanding Research in the course - AY'24  
-1.[AI-based Mobile Apps on Mobile Devices Across Various Domain Verticals: Past, Present and Future](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5002541)
+## [AI-based Mobile Apps on Mobile Devices Across Various Domain Verticals: Past, Present and Future](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5002541)
 
 This paper explores the evolution of AI-based mobile applications across various domain verticals. It examines how AI has been integrated into mobile devices from the past to the present and discusses future trends. Key areas covered include advancements in machine learning algorithms, the impact on user experience, and the role of AI in industries such as healthcare, education, finance, and entertainment.
 
