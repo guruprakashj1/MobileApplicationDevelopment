@@ -18,6 +18,7 @@ Mobile Application Development - Kotlin , Android and ...
 
 ## Unit - 3
 - Sensor
+- Advance topic , project based self learning. 
   
 # Best(Top 2%) Outstanding Student in the course - AY'24  
 1.
