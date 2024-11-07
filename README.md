@@ -4,6 +4,8 @@ Elective course offered @ Amrita School of Computing, Coimbatore.
 
 Mobile Application Development - Kotlin , Android and ...
 
+<img width="443" alt="MAD202425_v1" src="https://github.com/user-attachments/assets/67abf26a-7874-407f-802d-0c398734f6a7">
+
 
 ## Unit - 1
 - Kotlin
