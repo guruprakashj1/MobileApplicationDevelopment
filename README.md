@@ -7,6 +7,7 @@ Mobile Application Development - Kotlin , Android and ...
 
 ![MAD 2024-25](https://github.com/guruprakashj1/MobileApplicationDevelopment/blob/main/MAD202425.png)
 
+
 ## Unit - 1
 - Kotlin
 - Basic concepts on Android 
