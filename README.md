@@ -39,7 +39,7 @@ Citation:
 Guruprakash J, Askhar Sakhi, Nishanth S Gowda, Arun Kumar J, Hariish G, Ashwin Narayanan S, and Krithika L.B (2024). AI-based Mobile Apps on Mobile Devices Across Various Domain Verticals: Past, Present and Future. Available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5002541)
 
 # Best(Top 2%) Outstanding Project in the course - AY'24  
-1. VehicleDamageAI
+1. [VehicleDamageAI] (https://github.com/tejokiran11/damage-car-detect)
 2. 
 
 # Best(Top 5%) Student in the course - AY'24 
