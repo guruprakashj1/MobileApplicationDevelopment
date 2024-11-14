@@ -21,7 +21,8 @@ Mobile Application Development - Kotlin , Android and ...
 - Sensor
 - Advance topic , project based self learning. 
 
-![image](https://github.com/user-attachments/assets/f2caa031-df14-44f5-9840-6b735f0a96ce)
+<img width="436" alt="image" src="https://github.com/user-attachments/assets/8bb40806-a8f9-4e87-a5f9-ff205618b152">
+
   
 # Best(Top 2%) Outstanding Student in the course - AY'24  
 1.CB.EN.U4CSE21455 	Shreyas Visweshwaran
