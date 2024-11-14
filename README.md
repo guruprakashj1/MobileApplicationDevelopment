@@ -43,10 +43,7 @@ Guruprakash J, Askhar Sakhi, Nishanth S Gowda, Arun Kumar J, Hariish G, Ashwin N
 2. FitTrack: Exercise Analysis 
 
 # Best Student (Top 5%) (Attending classes , Completing task on time , Contribution to the course ,  Extra activties & research )  Student in the course - AY'24 
-
-
-![image](https://github.com/user-attachments/assets/8055235e-8623-43a1-a8c5-764e38071454)
-
+To be updated before 30-11-24
 
 # Best(Top 5%) Project & Team in the course - AY'24 
 1.  MindCare: Student Mental Health
